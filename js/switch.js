@@ -10,7 +10,7 @@ L.tileLayer("https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png
   attribution: '<a href="https://openup.org.za/" target="_blank">OpenUp</a>'
 }).addTo(map);
 
-var layerUrl = 'http://adi45.cartodb.com/api/v2/viz/1178935a-d175-11e5-bbae-0e31c9be1b51/viz.json';
+var layerUrl = 'https://adi45.cartodb.com/api/v2/viz/1178935a-d175-11e5-bbae-0e31c9be1b51/viz.json';
 
 var sublayers = [];
 
