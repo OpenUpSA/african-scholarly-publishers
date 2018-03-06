@@ -14,7 +14,7 @@ var layerUrl = 'https://adi45.cartodb.com/api/v2/viz/1178935a-d175-11e5-bbae-0e3
 
 var sublayers = [];
 
-cartodb.createLayer(map, layerUrl)
+cartodb.createLayer(map, layerUrl, { https: true })
 .addTo(map)
 .on('done', function(layer) {
   // change the query for the first layer
